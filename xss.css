@@ -1,0 +1,13 @@
+/* Đoạn mã CSS độc hại */
+body {
+    background-color: red;
+}
+
+input[type="text"] {
+    background-image: url('javascript:alert(1)');
+}
+
+div::after {
+    content: "Đã bị hack!";
+    color: red;
+}
